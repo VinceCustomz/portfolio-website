@@ -86,6 +86,4 @@ export const Img = styled.img`
     border-radius: 10px;
     margin: 0 0 10px 0;
     padding-right: 0;
-    
-    box-shadow: 5px 5px 5px lightgray;
 `

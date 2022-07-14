@@ -2,7 +2,7 @@
 // makes it reusable
 
 //Second Page
-export const homeObjOne = {
+export const aboutMe = {
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -20,20 +20,56 @@ export const homeObjOne = {
     darkText: false,
 }
 
-export const projects = {
+export const projectsOne = {
     id: 'projects',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: !false,
+    lightText: !true,
+    lightTextDesc: !true,
     topLine: 'Projects',
     headLine: 'PokéPacks',
     description: 
     'PokéPacks is a web application where you can simulate opening Pokémon Booster packs, as well as track your collection. Remember there was a time, the only currency that mattered was... Pokémon cards!',
     buttonLabel: 'See Live',
-    imgStart: false,
+    imgStart: !true,
     img: require('../../images/svg-2.png'),
-    alt: 'Vince',
-    dark: false,
-    primary: false,
-    darkText: true,
+    alt: 'pokepacks',
+    dark: !true,
+    primary: !true,
+    darkText: !false,
+}
+
+export const projectsTwo = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Projects',
+    headLine: 'Plenty of Fish Outside',
+    description: 
+    'Description',
+    buttonLabel: 'See Live',
+    imgStart: true,
+    img: require('../../images/svg-3.png'),
+    alt: 'plentyfish',
+    dark: true,
+    primary: true,
+    darkText: false,
+}
+
+export const projectsThree = {
+    id: 'about',
+    lightBg: !false,
+    lightText: !true,
+    lightTextDesc: !true,
+    topLine: 'Projects',
+    headLine: 'Nine Lives: Marvel Edition',
+    description: 
+    'Description',
+    buttonLabel: 'See Live',
+    imgStart: !true,
+    img: require('../../images/svg-4.png'),
+    alt: 'ninelives',
+    dark: !true,
+    primary: !true,
+    darkText: !false,
 }
