@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 
-    :before{
+    :before {
         content:'';
         position: absolute;
         top: 0;
@@ -95,18 +95,22 @@ export const ArrowForward = styled(MdArrowForward)`
     margin-left: 8px;
     font-size: 20px;
 `
-export const ArrowRight = styled(MdKeyboardArrowRight)`
 
+export const ArrowRight = styled(MdKeyboardArrowRight)`
 `
+
 export const NameColor = styled.span`
     color: #01BF71;
 `
+
 export const ReactColor = styled.span`
     color: #04dbfb;
 `
-export const PythonColorA = styled.span`
-    color: #347caf;
-`
+
+// export const PythonColorA = styled.span`
+//     color: #347caf;
+// `
+
 export const PythonColorB = styled.span`
     color: #fccc39;
 `

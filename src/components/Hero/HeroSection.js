@@ -13,7 +13,7 @@ import {
     ArrowRight,
     NameColor,
     ReactColor,
-    PythonColorA,
+    // PythonColorA,
     PythonColorB,
 } from './HeroElements';
 
@@ -33,7 +33,7 @@ const HeroSection = () => {
             {/* <HeroH1>Vince's PORTFOLIO</HeroH1> */}
             <HeroP>
                 Hello, my name is <strong><NameColor>Vince</NameColor></strong>.
-                <p>I am a software developer from Markham with experience in building full-stack web applications with Javascript <ReactColor>React.js</ReactColor> and <PythonColorA>Pyt</PythonColorA><PythonColorB>hon</PythonColorB>.</p>
+                <p>I am a software developer from Markham with experience in building full-stack web applications with Javascript, <ReactColor>React</ReactColor> and <PythonColorB>Python</PythonColorB>.</p>
             </HeroP>
             <HeroBtnWrappers>
                 <Button to="signup"
