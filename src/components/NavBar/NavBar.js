@@ -3,20 +3,22 @@ import {FaBars} from 'react-icons/fa'
 import { 
   Nav, 
   NavBarContainer, 
-  NavLogo, MobileIcon, 
+  NavLogo, 
+  MobileIcon, 
   NavMenu, 
   NavItem, 
   NavLinks,
-  NavBtn,
-  NavBtnLink } from './NavBarElements'
+  // NavBtn,
+  // NavBtnLink
+} from './NavBarElements'
 
-const NavBar = () => {
+const NavBar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavBarContainer>
           <NavLogo to='/'>Vince Vuong</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
@@ -24,15 +26,18 @@ const NavBar = () => {
               <NavLinks to="about">About Me</NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="projects">Projects</NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to="skills">Skills</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks to="Resume">Resume</NavLinks>
             </NavItem>
           </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
         </NavBarContainer>
       </Nav>
     </>
