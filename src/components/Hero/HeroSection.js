@@ -6,7 +6,6 @@ import {
     HeroBg, 
     VideoBg, 
     HeroContent, 
-    // HeroH1, 
     HeroP, 
     HeroBtnWrappers, 
     ArrowForward, 
@@ -30,13 +29,12 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-            {/* <HeroH1>Vince's PORTFOLIO</HeroH1> */}
             <HeroP>
                 Hello, my name is <strong><NameColor>Vince</NameColor></strong>.
                 <p>I am a software developer from Markham with experience in building full-stack web applications with Javascript, <ReactColor>React</ReactColor> and <PythonColorB>Python</PythonColorB>.</p>
             </HeroP>
             <HeroBtnWrappers>
-                <Button to="signup"
+                <Button to="about"
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary='true'

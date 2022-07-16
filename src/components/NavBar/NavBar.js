@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import { 
   Nav, 
   NavBarContainer, 
@@ -8,6 +8,7 @@ import {
   NavMenu, 
   NavItem, 
   NavLinks,
+  NavLinksResume,
   // NavBtn,
   // NavBtnLink
 } from './NavBarElements'
@@ -17,7 +18,7 @@ const NavBar = ({toggle}) => {
     <>
       <Nav>
         <NavBarContainer>
-          <NavLogo to='/'>Vince Vuong</NavLogo>
+          <NavLogo to='/'>Vince Vuong | Software Developer</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -26,13 +27,15 @@ const NavBar = ({toggle}) => {
               <NavLinks to="about">About Me</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks to="projectsOne">Projects</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="skills">Skills</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Resume">Resume</NavLinks>
+              <a href='https://docs.google.com/document/d/1Tnn2t1nFRSSCS88WXW1CRcVkYVvc96_5LOOdNXHxGzg/export?format=pdf'>
+              <NavLinksResume to="Resume">Resume</NavLinksResume>
+              </a>
             </NavItem>
           </NavMenu>
             {/* <NavBtn>

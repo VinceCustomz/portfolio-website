@@ -7,6 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+        <h1 className="text-white">HI THERE</h1>
         <Home />
       </Router>
     )
