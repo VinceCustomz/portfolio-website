@@ -30,7 +30,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroP>
-                Hello, my name is <strong><NameColor>Vince Vuong</NameColor></strong>.
+                Hello, my name is <strong><NameColor>Vince</NameColor></strong>.
                 <p>I am a software developer from Markham with experience in building full-stack web applications with Javascript, <ReactColor>React</ReactColor> and <PythonColorB>Python</PythonColorB>.</p>
             </HeroP>
             <HeroBtnWrappers>
