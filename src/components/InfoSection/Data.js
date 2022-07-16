@@ -30,6 +30,7 @@ export const projectsOne = {
     headLine: 'PokéPacks',
     description: 
     'PokéPacks is a web application where you can simulate opening Pokémon Booster packs, as well as track your collection by using the pokemonTCG Api. Remember there was a time, the only thing that mattered was... Pokémon cards!',
+    toolStatement: 'Tools used: ',
     toolsUsed: 'React.js, Javascript, Express, MongoDB, Tailwind',
     buttonLabel: 'See Live',
     imgStart: !true,
@@ -50,6 +51,7 @@ export const projectsTwo = {
     headLine: 'Plenty of Fish',
     description: 
     'Plenty of Fish is a photo-sharing web application deisgned to support users in organizing and sharing the fish they catch. Each entry allows a user to log specific information about their catch, comment/rate on other users entries, and tell mention if that catch was delicious, thus making it a fun experience for all!',
+    toolStatement: 'Tools used: ',
     toolsUsed: 'Python, Django, MongoDB, Tailwind',
     buttonLabel: 'See Live',
     imgStart: true,
@@ -70,6 +72,7 @@ export const projectsThree = {
     headLine: 'Nine Lives: Marvel Edition',
     description: 
     'NineLives is word guessing web application designed with pure Javascript, HTML, and CSS. A user has nine-attempts to guess the correct letter, and each wrong attempt lowers your lives. Marvel-themed because my wife enjoys Marvel and word guessing games, give it a try!',
+    toolStatement: 'Tools used: ',
     toolsUsed: 'Javascript, HTML, CSS',
     buttonLabel: 'See Live',
     imgStart: !true,

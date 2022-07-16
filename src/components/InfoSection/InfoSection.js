@@ -33,6 +33,7 @@ const InfoSection = ({
   dark2,
   link,
   toolsUsed,
+  toolStatement,
 }) => {
   return (
     <>
@@ -44,10 +45,7 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <Subtitle darkText={darkText}>
-                  <strong>Tools: </strong>
-                  {toolsUsed}
-                </Subtitle>
+                <Subtitle darkText={darkText}><strong>{toolStatement}</strong>{toolsUsed}</Subtitle>
                 <BtnWrap>
                   <a href={link} target="_blank" rel="noopener noreferrer">
                     <InfoButton
