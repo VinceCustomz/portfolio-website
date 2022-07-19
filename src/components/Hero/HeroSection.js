@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
 import { Button } from "../ButtonElement";
+
 import {
   HeroContainer,
   HeroBg,
@@ -30,17 +31,19 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroP>
-          Hello, my name is{" "}
-          <strong>
-            <NameColor>Vince</NameColor>
-          </strong>
-          .
-          <p>
+          <span>
+            Hello, my name is
+            <strong>
+              <NameColor> Vince</NameColor>
+            </strong>
+            .{" "}
+          </span>
+          <span>
             I am a software developer from Markham with experience in building
             full-stack web applications with Javascript,{" "}
             <ReactColor>React</ReactColor> and{" "}
             <PythonColorB>Python</PythonColorB>.
-          </p>
+          </span>
         </HeroP>
         <HeroBtnWrappers>
           <Button

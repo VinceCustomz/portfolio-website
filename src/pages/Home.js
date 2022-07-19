@@ -3,6 +3,7 @@ import SideBar from "../components/SideBar/SideBar";
 import NavBar from "../components/NavBar/NavBar";
 import HeroSection from "../components/Hero/HeroSection";
 import InfoSection from "../components/InfoSection/InfoSection";
+import Footer from "../components/Footer/Footer";
 
 import {
   aboutMe,
@@ -27,6 +28,7 @@ const Home = () => {
       <InfoSection {...projectsOne} />
       <InfoSection {...projectsTwo} />
       <InfoSection {...projectsThree} />
+      <Footer />
     </>
   );
 };

@@ -74,7 +74,7 @@ const InfoSection = ({
               </TextWrapper>
             </Column1>
             <Column2>
-              <div class="cursor-pointer transition duration-300 ease-in-out hover:scale-105">
+              <div className="cursor-pointer transition duration-300 ease-in-out hover:scale-105">
                 <a href={link} target="_blank" rel="noopener noreferrer">
                   <ImgWrap>
                     <Img src={img} alt={alt} className="drop-shadow-2xl" />

@@ -24,9 +24,6 @@ const SideBar = ({ isOpen, toggle }) => {
           <SideBarLink to="projectsOne" onClick={toggle}>
             Projects
           </SideBarLink>
-          <SideBarLink to="skills" onClick={toggle}>
-            Skills
-          </SideBarLink>
           <SideBarLink to="resume" onClick={toggle}>
             Resume
           </SideBarLink>

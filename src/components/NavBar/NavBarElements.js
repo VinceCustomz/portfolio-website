@@ -67,6 +67,7 @@ export const NavMenu = styled.ul`
     display: none;
   }
 `;
+
 export const NavLinks = styled(LinkScroll)`
   color: #fff;
   display: flex;
@@ -75,6 +76,11 @@ export const NavLinks = styled(LinkScroll)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+    
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  }
 
   &.active {
     border-bottom: 3px solid #01bf71;

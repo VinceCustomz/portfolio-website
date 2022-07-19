@@ -9,9 +9,9 @@ export const aboutMe = {
   topLine: "About Me",
   headLine: "",
   description:
-    "My first degree was a major in Biology, graduated, but lab work turned out...was not for me. My second degree, was in Occupational Health and Safety, made some good money, but ended up being too stale. Now at 30 years old, I decided that I will become a Software Developer.",
+    "I am a BSci holder with years of experience in Occupational Health & Safety. I have decided to take that experience and develop my skills as a Software Engineer.",
   description2:
-    "I graduated from a Programming Bootcamp and loving every minute of it. The limitless potential, the logical thinking and problem solving was enough to ignite a passion in me to become one. I have always wanted to understand how applications on machines just...worked. Today, I am developing them and hopefully be able to continue to do so for startups and large companies.",
+    "I am a recent graduate of General Assembly's Software Development Bootcamp. The logical thinking and problem solving was enough to ignite a passion in me develop my skills. I have always wanted to understand how applications on the front end and the back end worked, and it has been a thrill to develop the skills to create both.",
   buttonLabel: "Resume",
   imgStart: true,
   img: require("../../images/svg-1.png"),
