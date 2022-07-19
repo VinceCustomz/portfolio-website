@@ -11,7 +11,7 @@ export const aboutMe = {
   description:
     "I am a BSci holder with years of experience in Occupational Health & Safety. I have decided to take that experience and develop my skills as a Software Engineer.",
   description2:
-    "I am a recent graduate of General Assembly's Software Development Bootcamp. The logical thinking and problem solving was enough to ignite a passion in me develop my skills. I have always wanted to understand how applications on the front end and the back end worked, and it has been a thrill to develop the skills to create both.",
+    "I am a recent graduate of General Assembly's Software Development Bootcamp. The logical thinking and problem solving was enough to ignite a passion to develop my skills. I have always wanted to understand how applications on the front end and the back end worked, and it has been a thrill to develop the skills to create both.",
   buttonLabel: "Resume",
   imgStart: true,
   img: require("../../images/svg-1.png"),
