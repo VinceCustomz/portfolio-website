@@ -30,7 +30,7 @@ export const projectsOne = {
   topLine: "Projects",
   headLine: "Plenty of Fish",
   description:
-    "Plenty of Fish is a photo-sharing web application deisgned to support users in organizing and sharing the fish they catch. Each entry allows a user to log specific information about their catch, comment/rate on other users entries, and tell mention if that catch was delicious, thus making it a fun experience for all!",
+    "Plenty of Fish is a photo-sharing web application deisgned to support users in organizing and sharing the fish they catch. Each entry allows a user to log information, comment/rate on other users entries, and mention if that catch was delicious, thus making a fun experience for all!",
   toolStatement: "Tools used: ",
   toolsUsed: "Python, Django, MongoDB, Tailwind",
   buttonLabel: "See Live",
