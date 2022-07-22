@@ -22,11 +22,35 @@ export const aboutMe = {
   link: "https://docs.google.com/document/d/1Tnn2t1nFRSSCS88WXW1CRcVkYVvc96_5LOOdNXHxGzg/export?format=pdf",
   // export?format=pdf - allows the link to be a downloadable file
 };
-export const projectsOne = {
-  id: "projectsOne",
+export const calorieTracker = {
+  id: "calorieTracker",
   lightBg: !false,
   lightText: !true,
   lightTextDesc: !true,
+  imgStart: !true,
+  dark: !true,
+  primary: !true,
+  darkText: !false,
+  topLine: "Projects",
+  headLine: "Calorie Tracker",
+  description:
+    "Our nutrition tracker is simple: you can collect, submit and analyze your food intake patterns Amid all the meals, we fail to understand the amount of nutrition we consume daily. Protein, carbohydrates, fat, and calories have a specific impact on the human body. And to stay healthy, one should eat healthily. However, keeping track of the diet manually on either paper or digitally both have the same intention.",
+  toolStatement: "Tools used: ",
+  toolsUsed: "Python, Django, Tailwind, Javascript, HTML, CSS, Charts.js, SQL",
+  buttonLabel: "See Live",
+  img: require("../../images/CalorieLog.PNG"),
+  alt: "calorieTracker",
+  link: "https://calorielog.herokuapp.com",
+};
+export const plentyFish = {
+  id: "plentyFish",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  imgStart: true,
+  dark: true,
+  primary: true,
+  darkText: false,
   topLine: "Projects",
   headLine: "Plenty of Fish",
   description:
@@ -34,20 +58,20 @@ export const projectsOne = {
   toolStatement: "Tools used: ",
   toolsUsed: "Python, Django, MongoDB, Tailwind",
   buttonLabel: "See Live",
-  imgStart: !true,
   img: require("../../images/svg-3.png"),
   alt: "plentyfish",
-  dark: !true,
-  primary: !true,
-  darkText: !false,
   link: "https://plentyfish.herokuapp.com/fishes",
 };
 
-export const projectsTwo = {
-  id: "projectsTwo",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+export const pokePacks = {
+  id: "pokePacks",
+  lightBg: !false,
+  lightText: !true,
+  lightTextDesc: !true,
+  imgStart: !true,
+  dark: !true,
+  primary: !true,
+  darkText: !false,
   topLine: "Projects",
   headLine: "PokéPacks",
   description:
@@ -55,21 +79,21 @@ export const projectsTwo = {
   toolStatement: "Tools used: ",
   toolsUsed: "React.js, Javascript, Express, MongoDB, Tailwind",
   buttonLabel: "See Live",
-  imgStart: true,
   img: require("../../images/svg-2.png"),
   alt: "pokepacks",
-  dark: true,
-  primary: true,
-  darkText: false,
   link: "https://pokemontcgtracker3.herokuapp.com/home",
 };
 
 
-export const projectsThree = {
-  id: "projectsThree",
-  lightBg: !false,
-  lightText: !true,
-  lightTextDesc: !true,
+export const nineLives = {
+  id: "nineLives",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  imgStart: true,
+  dark: true,
+  primary: true,
+  darkText: false,
   topLine: "Projects",
   headLine: "Nine Lives: Marvel Edition",
   description:
@@ -77,10 +101,6 @@ export const projectsThree = {
   toolStatement: "Tools used: ",
   toolsUsed: "Javascript, HTML, CSS",
   buttonLabel: "See Live",
-  imgStart: !true,
   img: require("../../images/svg-4.png"),
   alt: "ninelives",
-  dark: !true,
-  primary: !true,
-  darkText: !false,
 };

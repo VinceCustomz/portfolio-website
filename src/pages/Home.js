@@ -7,9 +7,10 @@ import Footer from "../components/Footer/Footer";
 
 import {
   aboutMe,
-  projectsOne,
-  projectsTwo,
-  projectsThree,
+  calorieTracker,
+  plentyFish,
+  pokePacks,
+  nineLives
 } from "../components/InfoSection/Data";
 
 const Home = () => {
@@ -25,9 +26,10 @@ const Home = () => {
       <NavBar toggle={toggle} />
       <HeroSection />
       <InfoSection {...aboutMe} />
-      <InfoSection {...projectsOne} />
-      <InfoSection {...projectsTwo} />
-      <InfoSection {...projectsThree} />
+      <InfoSection {...calorieTracker} />
+      <InfoSection {...plentyFish} />
+      <InfoSection {...pokePacks} />
+      <InfoSection {...nineLives} />
       <Footer />
       
     </>
