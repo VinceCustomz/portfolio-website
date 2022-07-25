@@ -19,7 +19,8 @@ export const aboutMe = {
   dark: true,
   primary: true,
   darkText: false,
-  link: "https://docs.google.com/document/d/1Tnn2t1nFRSSCS88WXW1CRcVkYVvc96_5LOOdNXHxGzg/export?format=pdf",
+  link: require("../../images/Resume.pdf"),
+  // link: "https://docs.google.com/document/d/1Tnn2t1nFRSSCS88WXW1CRcVkYVvc96_5LOOdNXHxGzg/export?format=pdf",
   // export?format=pdf - allows the link to be a downloadable file
 };
 export const calorieTracker = {
