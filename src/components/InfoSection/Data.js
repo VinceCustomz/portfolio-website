@@ -53,7 +53,7 @@ export const plentyFish = {
   primary: true,
   darkText: false,
   topLine: "Projects",
-  headLine: "Plenty of Fish",
+  headLine: "Plenty Fish Tracker",
   description:
     "Plenty of Fish is a photo-sharing web application deisgned to support users in organizing and sharing the fish they catch. Each entry allows a user to log information, comment/rate on other users entries, and mention if that catch was delicious, thus making a fun experience for all!",
   toolStatement: "Tools used: ",
