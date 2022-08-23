@@ -103,5 +103,6 @@ export const nineLives = {
   toolsUsed: "Javascript, HTML, CSS",
   buttonLabel: "See Live",
   img: require("../../images/svg-4.png"),
+  link: "https://vincecustomz.github.io/NineLives/",
   alt: "ninelives",
 };
