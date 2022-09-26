@@ -31,7 +31,7 @@ const NavBar = ({ toggle }) => {
               <NavLinks to="calorieTracker">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <a href="https://drive.google.com/file/d/1lVaE0aCu2b9Sq4junADvXDE9NSsU1fbu/view?usp=sharing">
+              <a href="https://docs.google.com/document/d/1HYOwO7iYQTPGuDhOo7eILPS6hwYAUD8p6bn9SjbgaNI/edit?usp=sharing">
                 <NavLinksResume to="Resume">Resume</NavLinksResume>
               </a>
             </NavItem>
